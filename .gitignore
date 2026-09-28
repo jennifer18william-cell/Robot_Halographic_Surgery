@@ -1,0 +1,55 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+
+# Python tools
+# Logs
+*.log
+.pytest_cache/
+.mypy_cache/
+
+# Medical / project data
+data/
+datasets/
+*.dcm
+*.nii
+*.nii.gz
+
+# AI model files
+models/
+*.pt
+*.pth
+*.onnx
+*.ckpt
+*.pkl
+
+# Training outputs
+runs/
+results/
+outputs/
+
+# 3D / application temporary files
+*.blend1
+*.tmp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Secrets
+.env
+*.secret
